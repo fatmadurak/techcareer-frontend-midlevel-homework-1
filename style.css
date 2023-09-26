@@ -160,8 +160,11 @@ body {
   transition: all 500ms ease;
 }
 
-.wrapper.scrolled {
+.scrolled {
+  position: absolute;
+  top: 0;
   height: 5vh;
+  background-color: var(--dark-blue-color);
 }
 
 .wrapper .navigation .nav-brand {
