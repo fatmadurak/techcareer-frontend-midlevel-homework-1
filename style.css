@@ -161,9 +161,9 @@ body {
 }
 
 .scrolled {
-  position: absolute;
+  
   top: 0;
-  height: 5vh;
+  height: 8vh;
   background-color: var(--dark-blue-color);
 }
 
