@@ -75,6 +75,7 @@ body {
   transition: all ease-in 0.2s;
   display: block;
   padding-right: 1rem;
+  transition: all 0.3s ease;
 }
 
 .navigation .nav-list .nav-link:hover:not(.active) {
