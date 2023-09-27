@@ -1,3 +1,5 @@
+
+//add scroll class 
 const wrapper = document.querySelector(".wrapper");
 
 window.addEventListener("scroll", () => {
