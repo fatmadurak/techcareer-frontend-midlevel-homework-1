@@ -171,15 +171,11 @@ body {
 
 /*header-mobile start*/
 
-.wrapper .menu-icon{
-
-background-color: transparent;
-border: none;
-display: none;
-
+.wrapper .menu-icon {
+  background-color: transparent;
+  border: none;
+  display: none;
 }
-
-
 
 /*header-mobile end*/
 
@@ -567,279 +563,191 @@ display: none;
 
 /*footer css end*/
 
-
 /*responsive design css start*/
 
-@media only screen and (max-width:480px) {
-
+@media only screen and (max-width: 480px) {
   .header {
     height: 150vh;
-   
   }
-  
+
   .wrapper {
-   
     height: 15vh;
-   
- 
-   
   }
-.wrapper .nav-list{
+  .wrapper .nav-list {
+    display: none;
+  }
 
-  display: none;
+  .wrapper .nav-brand {
+    padding-left: 0.2rem;
+    font-size: 0.1rem;
+    white-space: nowrap;
+  }
+  .wrapper .menu-icon {
+    display: block;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 200;
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 1rem 0.2rem;
+    border-width: 0.125rem;
+    margin-right: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .wrapper .menu-icon i {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .hero-section .hero-wrapper .hero-image {
+    width: 18rem;
+    flex: 0 50%;
+  }
+
+  .hero-section .hero-wrapper .hero-info {
+    justify-content: unset;
+    row-gap: 0;
+    flex: 1;
+  }
+
+  .hero-section .hero-wrapper .hero-heading {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 4rem;
+  }
+
+  .hero-section .hero-subheading {
+    font-size: 1.2rem;
+  }
+
+  .divider-line .star-icon {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 2rem 0;
+  }
+
+  .portfolio-section .portfolio-wrapper .portfolio-list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+  }
+
+  .portfolio-list .portfolio-item {
+    width: 90%;
+  }
+
+  .portfolio-wrapper .portfolio-list img {
+    font-weight: 400;
+    width: 100%;
+    border-radius: 0.5rem;
+    display: flex;
+  }
+
+  .about-section {
+    padding: 6rem 0;
+    height: 100vh;
+    background-color: var(--primary-color);
+    justify-content: unset;
+  }
+
+  .about-section .about-text {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+  }
+
+  .about-section .about-text p {
+    width: 100%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+    font-family: "Lato", sans-serif;
+    text-align: start;
+  }
+
+  .about-section .about-download .btn {
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  /**/
+
+  .contact-section {
+    height: 100vh;
+  }
+
+  .contact-section .contact-elements {
+    width: 90%;
+  }
+
+  .contact-form {
+    margin-top: 0;
+  }
+
+  .footer {
+    height: 130vh;
+    padding: 3rem 0;
+  }
+
+  .footer .footer-row-container {
+    flex-direction: column;
+    height: 75%;
+  }
+
+  .footer .footer-location {
+    width: 100%;
+  }
+
+  .footer .footer-location .footer-location-heading {
+    font-size: 2rem;
+  }
+
+  .footer .footer-location-text {
+    width: 100%;
+  }
+  .footer .footer-location-text p {
+    width: 100%;
+    height: 100%;
+
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+  }
+
+  .footer .footer-social-heading {
+    font-size: 2rem;
+  }
+
+  .footer .footer-social-media .social-list {
+    width: 100%;
+  }
+
+  .footer .footer-privacy {
+    font-size: 2.25rem;
+    font-weight: 500;
+  }
+
+  .footer .footer-text-heading {
+    font-size: 2rem;
+  }
+
+  .footer .footer-copyright {
+    flex: 0 10%;
+  }
+
+  .footer .footer-copyright p {
+    font-size: 1.1rem;
+  }
 }
-
-.wrapper .nav-brand{
-
-  padding-left: .2rem;
-  font-size: .1rem;
-  white-space: nowrap;
- 
-
-}
-.wrapper .menu-icon{
-
-  display: block;
-  cursor: pointer;
-  background-color: var(--primary-color);
-  border: none;
-  color: var(--white-color);
-  font-size: 1rem;
-  font-weight: 200;
-  display: inline-block;
-  border-radius: 0.5rem;
-  padding: 1rem .2rem;
-  border-width: 0.125rem;
-  margin-right: .5rem;
-  white-space: nowrap;
-}
-
-.wrapper .menu-icon i{
-
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.hero-section .hero-wrapper .hero-image {
-
-  width: 18rem;
-  flex: 0 50%;
- 
-
-
-}
-
-.hero-section .hero-wrapper .hero-info {
- 
-  justify-content: unset;
-  row-gap:0;
-  flex: 1;
-}
-
-.hero-section .hero-wrapper .hero-heading {
-  font-size: 3rem;
-  text-align: center;
-  line-height: 4rem;
- 
- 
-}
-
-.hero-section .hero-subheading{
-
-font-size: 1.2rem;
-
-
-}
-
-.divider-line .star-icon {
-  
-  font-size: 2.5rem;
-  font-weight: 300;
-  margin: 2rem 0;
-  
-}
-
-.portfolio-section .portfolio-wrapper .portfolio-list {
-  
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  gap: 2rem;
-}
-
-
-.portfolio-list .portfolio-item {
-  width: 90%;
-
-}
-
-.portfolio-wrapper .portfolio-list img {
-  font-weight: 400;
-  width:100%;
-  border-radius: 0.5rem;
-  display: flex;
-}
-
-
-.about-section {
-  padding: 6rem 0;
-  height: 100vh;
-  background-color: var(--primary-color);
-justify-content: unset;
- 
-}
-
-
-.about-section .about-text {
- flex-direction: column;
- justify-content: space-between;
- align-items: center;
-  column-gap: 3rem;
-}
-
-.about-section .about-text p {
-  width: 100%;
-  font-size: 1.25rem;
-  font-weight: 300;
-  line-height: 2rem;
-  margin-bottom: 3rem;
-  font-family: "Lato", sans-serif;
-  text-align: start;
-  
-}
-
-.about-section .about-download .btn {
- 
-  padding: 1rem 2rem;
-  margin-top: 3rem;
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-/**/
-
-.contact-section {
-  height: 100vh;
-
-  
-}
-
-
-
-
-
-.contact-section .contact-elements {
-  width: 90%;
- 
-}
-
-
-
-.contact-form  {
-  margin-top: 0;
-
-}
-
-
-/**/
-
-.footer {
-  height: 130vh;
-  padding: 3rem 0;
- 
-}
-
-
-
-.footer .footer-row-container {
- 
-  flex-direction: column;
-  height: 75%;
-
-  
-}
-
-.footer .footer-location{
-
-  width: 100%;
- 
-}
-
-.footer .footer-location .footer-location-heading
-
-{
-font-size: 2rem;
-
-}
-
-
-.footer .footer-location-text{
-
-width: 100%;
-
-}
-.footer .footer-location-text p{
-
-  
-  width: 100%;
-  height: 100%;
- 
-  font-size: 2.25rem;
-  font-weight: 500;
-  margin-bottom: .2rem;
-
-}
-
-.footer .footer-social-heading{
-
-  font-size: 2rem;
-}
-
-
-.footer .footer-social-media .social-list {
- 
-  width: 100%;
-}
-
-
-
-.footer .footer-privacy{
-
-  font-size: 2.25rem;
-  font-weight: 500;
-
-}
-
-.footer .footer-text-heading{
-
-  font-size: 2rem;
-}
-
-
-
-.footer .footer-copyright{
-
-flex: 0 10%;
-
-
-}
-
-.footer .footer-copyright p{
-
-
-  font-size: 1.1rem;
-
-
-}
-
-}
-
-
-
-
-
-
-
 
 /*responsive design css end*/
