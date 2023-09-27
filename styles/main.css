@@ -172,7 +172,8 @@ body {
 /*   portfolio section css start*/
 
 .portfolio-section {
-  margin: 5rem auto;
+  margin: 0 auto;
+  padding: 6rem 0;
   max-width: 82rem;
   width: 100%;
 
@@ -256,7 +257,7 @@ body {
 
 .about-section {
   padding: 6rem 0;
-  height: 60vh;
+  height: 55vh;
   background-color: var(--primary-color);
 
   display: flex;
