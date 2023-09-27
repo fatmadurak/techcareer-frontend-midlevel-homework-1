@@ -44,6 +44,7 @@ body {
   font-size: 1.75rem;
   line-height: 0.5;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .wrapper .navigation {

@@ -14,6 +14,16 @@ window.addEventListener("scroll", () => {
 //add scroll effect
 
 
+
+document.querySelector('.nav-brand').addEventListener("click",(e)=>{
+
+
+  e.preventDefault();
+  document.querySelector(".hero-section").scrollIntoView({behavior:"smooth"});
+  
+  
+  })
+
 document.querySelector('a[href="#portfolio"]').addEventListener("click",(e)=>{
 
 
