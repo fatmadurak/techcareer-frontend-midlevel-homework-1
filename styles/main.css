@@ -120,7 +120,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  row-gap: 1.5rem;
+
 }
 
 .hero-section .hero-wrapper .hero-heading {
@@ -218,7 +218,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 
-  gap: 3rem;
+
 }
 
 .portfolio-list .portfolio-item {
@@ -286,7 +286,7 @@ body {
 .about-section .about-text {
   display: flex;
   justify-content: center;
-  column-gap: 1rem;
+ 
 }
 
 .about-section .about-text p {
@@ -330,7 +330,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 1rem;
+ 
 }
 .contact-section .contact-heading {
   font-size: 3rem;
@@ -452,7 +452,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  
 }
 
 .footer .footer-location .footer-location-heading {
@@ -483,7 +483,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  row-gap: 1rem;
+ 
 }
 
 .footer .footer-social-media .footer-social-heading {
@@ -515,7 +515,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+ 
 }
 
 .footer .footer-text .footer-text-heading {
@@ -610,7 +610,6 @@ body {
 
   .hero-section .hero-wrapper .hero-info {
     justify-content: unset;
-    row-gap: 0;
     flex: 1;
   }
 
@@ -635,7 +634,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    gap: 2rem;
+    
   }
 
   .portfolio-list .portfolio-item {
@@ -660,7 +659,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    column-gap: 3rem;
+  
   }
 
   .about-section .about-text p {
